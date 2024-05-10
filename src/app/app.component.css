@@ -1,0 +1,35 @@
+nav{
+    background-color:silver;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover{
+    background: yellow;
+    transition: .5s;
+}
+
+li a:hover{
+    background: cadetblue;
+}
