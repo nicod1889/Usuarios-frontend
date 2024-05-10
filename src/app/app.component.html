@@ -1,2 +1,12 @@
-<app-users-list></app-users-list>
-<app-create-user></app-create-user>
+<nav>
+    <ul>
+        <li>
+            <a routerLink="users" routerLinkActive="active">Users list</a>
+        </li>
+        <li>
+            <a routerLink="create-user" routerLinkActive="active">Create user</a>
+        </li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>
